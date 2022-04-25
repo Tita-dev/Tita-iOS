@@ -32,6 +32,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C03429142816E9FE0047FAB8 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		C03429152816EA2F0047FAB8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C03429142816E9FE0047FAB8 /* Cells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C03429162816EA320047FAB8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		C03429172816EA350047FAB8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C03429182816EA380047FAB8 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		C0894DE427E388B300CC6F51 = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +87,10 @@
 		C0894DEF27E388B300CC6F51 /* Tita */ = {
 			isa = PBXGroup;
 			children = (
+				C03429182816EA380047FAB8 /* ViewModels */,
+				C03429172816EA350047FAB8 /* Models */,
+				C03429162816EA320047FAB8 /* Services */,
+				C03429152816EA2F0047FAB8 /* Views */,
 				C0894DF027E388B300CC6F51 /* TitaApp.swift */,
 				C0894DF227E388B300CC6F51 /* ContentView.swift */,
 				C0894DF427E388B400CC6F51 /* Assets.xcassets */,
